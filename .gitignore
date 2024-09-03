@@ -1,6 +1,6 @@
 #ignore models data
-models/InternLM/InternLM2_5-7b-chat
-models/InternVL
+MindSearch/mindsearch/models/InternLM/InternLM2_5-7b-chat
+MindSearch/mindsearch/models/InternVL
 
 
 
