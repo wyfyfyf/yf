@@ -1,5 +1,6 @@
 #ignore models data
-models/
+models/InternLM/InternLM2_5-7b-chat
+models/InternVL
 
 
 
