@@ -1,5 +1,6 @@
 #ignore models data
 MindSearch/mindsearch/models/InternLM/InternLM2_5-7b-chat
+MindSearch/mindsearch/models/InternVL2-4B
 models/InternVL/InternVL2-4B
 mindsearch/models/InternVL/InternVL2-8B
 
