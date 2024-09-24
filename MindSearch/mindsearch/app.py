@@ -23,10 +23,6 @@ def parse_arguments():
                         default='internlm_server',
                         type=str,
                         help='Model format')
-    parser.add_argument('--search_engine',
-                       default='DuckDuckGoSearch',
-                       type=str,
-                       help='Search engine')
     return parser.parse_args()
 
 
@@ -127,7 +123,7 @@ async def run(request: GenerationParams):
             await queue.wait_closed()
 
     inputs = request.inputs
-    agent = init_agent(lang=args.lang, model_format=args.model_format,search_engine=args.search_engine)
+    agent = init_agent(lang=args.lang, model_format=args.model_format)
     return EventSourceResponse(generate())
 
 

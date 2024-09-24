@@ -337,7 +337,7 @@ class MindSearchAgent(BaseAgent):
                 if ref2url:
                     references_url.update({
                         str(idx + self.ptr): ref2url[str(idx)]
-                        for idx in set(numbers) if str(idx) in ref2url
+                        for idx in set(numbers)
                     })
                 self.ptr += max(numbers) + 1
             references.append(updated_ref)
